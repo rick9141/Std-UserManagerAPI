@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using FluentValidation;
+using Manager.Core.Exceptions;
 using Manager.Domain.Validators;
 
 namespace Manager.Domain.Entities
@@ -13,7 +14,7 @@ namespace Manager.Domain.Entities
         public string Password { get; private set; }
 
         //EF
-        protected User(){}
+        protected User() { }
 
         public User(string name, string email, string password)
         {
@@ -48,12 +49,12 @@ namespace Manager.Domain.Entities
             var validator = new UserValidator();
             var validation = validator.Validate(this);
 
-            if(validation.IsValid)
+            if (validation.IsValid)
             {
-                foreach(var error in validation.Errors)
+                foreach (var error in validation.Errors)
                     _errors.Add(error.ErrorMessage);
 
-                    throw new Exception("Alguns campos estão inváldos, por favor corrija-os" + _errors[0]);
+                throw new DomainException("Alguns campos estão inváldos, por favor corrija-os", _errors);
             }
             return true;
         }
