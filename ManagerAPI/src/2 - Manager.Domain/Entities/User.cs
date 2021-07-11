@@ -22,6 +22,8 @@ namespace Manager.Domain.Entities
             Email = email;
             Password = password;
             _errors = new List<string>();
+
+            Validate();
         }
 
         //Comportamentos

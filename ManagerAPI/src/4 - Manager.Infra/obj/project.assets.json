@@ -1529,10 +1529,21 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Manager.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Manager.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Manager.Core.dll": {}
+        }
+      },
       "Manager.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Manager.Core": "1.0.0",
           "fluentvalidation": "10.2.3"
         },
         "compile": {
@@ -5827,6 +5838,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Manager.Core/1.0.0": {
+      "type": "project",
+      "path": "../5 - Manager.Core/Manager.Core.csproj",
+      "msbuildProject": "../5 - Manager.Core/Manager.Core.csproj"
     },
     "Manager.Domain/1.0.0": {
       "type": "project",

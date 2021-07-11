@@ -4,8 +4,10 @@ C:\Projects\Std-ManagerAPI\ManagerAPI\src\4 - Manager.Infra\bin\Debug\net5.0\Man
 C:\Projects\Std-ManagerAPI\ManagerAPI\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Infra.dll
 C:\Projects\Std-ManagerAPI\ManagerAPI\src\4 - Manager.Infra\bin\Debug\net5.0\ref\Manager.Infra.dll
 C:\Projects\Std-ManagerAPI\ManagerAPI\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Infra.pdb
+C:\Projects\Std-ManagerAPI\ManagerAPI\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Core.dll
 C:\Projects\Std-ManagerAPI\ManagerAPI\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Domain.dll
 C:\Projects\Std-ManagerAPI\ManagerAPI\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Domain.pdb
+C:\Projects\Std-ManagerAPI\ManagerAPI\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Core.pdb
 C:\Projects\Std-ManagerAPI\ManagerAPI\src\4 - Manager.Infra\obj\Debug\net5.0\Manager.Infra.csproj.AssemblyReference.cache
 C:\Projects\Std-ManagerAPI\ManagerAPI\src\4 - Manager.Infra\obj\Debug\net5.0\Manager.Infra.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\Std-ManagerAPI\ManagerAPI\src\4 - Manager.Infra\obj\Debug\net5.0\Manager.Infra.AssemblyInfoInputs.cache
