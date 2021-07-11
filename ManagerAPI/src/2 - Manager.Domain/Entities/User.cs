@@ -51,7 +51,7 @@ namespace Manager.Domain.Entities
             var validator = new UserValidator();
             var validation = validator.Validate(this);
 
-            if (validation.IsValid)
+            if (!validation.IsValid)
             {
                 foreach (var error in validation.Errors)
                     _errors.Add(error.ErrorMessage);
