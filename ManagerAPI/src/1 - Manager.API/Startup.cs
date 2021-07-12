@@ -36,6 +36,7 @@ namespace Manager.API
             services.AddControllers();
 
             #region Jwt
+
             var secretKey = Configuration["Jwt:Key"];
 
             services.AddAuthentication(x =>
@@ -55,7 +56,8 @@ namespace Manager.API
                     ValidateAudience = false
                 };
             });
-            #endregion
+
+            #endregion Jwt
 
             #region AutoMapper
 
@@ -80,11 +82,48 @@ namespace Manager.API
 
             #endregion Dependency Injection
 
+            #region Swagger
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Manager.API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Manager.API",
+                    Version = "v1",
+                    Description = "API de gerenciamento de usuários utilizando Jwt.",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Luis Henrique Gavirate - Rick9141",
+                        Email = "gavirate.henrique@gmail.com",
+                        Url = new System.Uri("https://www.linkedin.com/in/gavirate")
+                    },
+                });
+
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Por favor utilize Bearer <TOKEN>",
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.ApiKey
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {{
+                    new OpenApiSecurityScheme
+                    {
+                        Reference = new OpenApiReference
+                        {
+                            Type = ReferenceType.SecurityScheme,
+                            Id = "Bearer"
+                        }
+                    },
+                    new string[] { }
+                }
+                });
             });
         }
+
+        #endregion Swagger
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -105,7 +144,7 @@ namespace Manager.API
             app.UseAuthentication();
             app.UseAuthorization();
 
-            #endregion
+            #endregion Use Authentication & Authorization
 
             app.UseEndpoints(endpoints =>
             {
