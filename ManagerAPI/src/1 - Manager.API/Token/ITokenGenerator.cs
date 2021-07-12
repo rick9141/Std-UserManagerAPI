@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace Manager.API.Token
 {
-    interface ITokenGenerator
+    public interface ITokenGenerator
     {
+        string GenerateToken();
     }
 }

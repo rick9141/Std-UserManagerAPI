@@ -1,4 +1,5 @@
 using AutoMapper;
+using Manager.API.Token;
 using Manager.API.ViewModels;
 using Manager.Domain.Entities;
 using Manager.Infra.Context;
@@ -75,6 +76,7 @@ namespace Manager.API
             services.AddDbContext<ManagerContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:USER_MANAGER"]), ServiceLifetime.Transient);
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ITokenGenerator, TokenGenerator>();
 
             #endregion Dependency Injection
 
