@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2hgFjNBgmChkAG9xIedwONZYJj7rHKU93O5q/3liqtr8qksxJp06mBWcj6+4ijtQ422b4yCZ5u9Ura1omUpMLA==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Std-ManagerAPI\\ManagerAPI\\src\\2 - Manager.Domain\\Manager.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gavir\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
