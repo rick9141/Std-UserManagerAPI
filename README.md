@@ -17,8 +17,8 @@ Foi desenvolvida uma API REST de gerenciamento de usuário, com autenticação v
 
 ## [](https://github.com/rick9141/std-usermanager#sobre-a-arquitetura-)Sobre a Arquitetura & Práticas Implementadas 📐
 
+-   Boas práticas de arquitetura
 -   Utilização de conceitos básicos de introdução a metodologia de design de software DDD(Domain Driven Design)
--   Boas práticas de arquitetura (Clean Architecture)
 -   Injeção de Dependência
 -   Repository Pattern
 
