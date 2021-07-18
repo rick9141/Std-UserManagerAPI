@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2hgFjNBgmChkAG9xIedwONZYJj7rHKU93O5q/3liqtr8qksxJp06mBWcj6+4ijtQ422b4yCZ5u9Ura1omUpMLA==",
+  "dgSpecHash": "BRBA2/POSyyGT6ZYBGqD20HRkDLpqa6rROtrK6vsd9Dvm6J+7EnwDPTGsEvfLyeH2r8RC2z0ihKzhnAvmIMNQQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Std-ManagerAPI\\ManagerAPI\\src\\2 - Manager.Domain\\Manager.Domain.csproj",
+  "projectFilePath": "C:\\Projects\\Std-UserManagerAPI\\ManagerAPI\\src\\2 - Manager.Domain\\Manager.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gavir\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512"
   ],

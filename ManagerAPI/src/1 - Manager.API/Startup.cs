@@ -1,3 +1,4 @@
+using EscNet;
 using AutoMapper;
 using Manager.API.Token;
 using Manager.API.ViewModels;
@@ -18,6 +19,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using EscNet.DependencyInjection.IoC.Cryptography;
 
 namespace Manager.API
 {
@@ -121,9 +123,19 @@ namespace Manager.API
                 }
                 });
             });
+
+            #endregion Swagger
+
+            #region Cryptography
+
+            services.AddRijndaelCryptography(Configuration["Cryptography"]);
+
+            #endregion
         }
 
-        #endregion Swagger
+
+
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

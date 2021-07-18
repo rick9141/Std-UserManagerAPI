@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "aY8TjHeyUMhgMJAyWgDlyivdYDe7upRhN218t19kKmCoBUztpZblsqJFcsdgBAAyJKLL56irlG4ScpZH1SJXKw==",
+  "dgSpecHash": "2NmkITBBpfVz4AFVy8Gznzs4RzzyodPsDnDG4j6ZVtqWcATk2kWHxodRIVMy0A3UjnwmukK52U2nlS0RgEaaFA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Std-ManagerAPI\\ManagerAPI\\src\\1 - Manager.API\\Manager.API.csproj",
+  "projectFilePath": "C:\\Projects\\Std-UserManagerAPI\\ManagerAPI\\src\\1 - Manager.API\\Manager.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gavir\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\gavir\\.nuget\\packages\\escnet\\1.0.1\\escnet.1.0.1.nupkg.sha512",
     "C:\\Users\\gavir\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
     "C:\\Users\\gavir\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.7\\microsoft.aspnetcore.authentication.jwtbearer.5.0.7.nupkg.sha512",
     "C:\\Users\\gavir\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.7\\microsoft.aspnetcore.authentication.openidconnect.5.0.7.nupkg.sha512",
