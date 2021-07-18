@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g3gfY2X2CsDKSlVQ3/8RK6Nr/qbYgvxo4VrfhVAdEVHd5VGdqexF83/KQPpXgPhtw/oOXYUruNy0Bn/aXMRYpw==",
+  "dgSpecHash": "8MP9OReUuIGk5OUDnJrT198NUFl75m3dBQfdgTXdvMADpnokWU0wTYhwvlh7qqhv7opL+83/lcEzSdzX7YjHrQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Std-ManagerAPI\\ManagerAPI\\src\\4 - Manager.Infra\\Manager.Infra.csproj",
+  "projectFilePath": "C:\\Projects\\Std-UserManagerAPI\\ManagerAPI\\src\\4 - Manager.Infra\\Manager.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gavir\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
     "C:\\Users\\gavir\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
